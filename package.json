@@ -1,5 +1,5 @@
 {
-  "name": "react-native-youtube",
+  "name": "@ro4z/react-native-youtube",
   "version": "2.0.1",
   "description": "A <YouTube/> component for React Native.",
   "main": "main.js",
