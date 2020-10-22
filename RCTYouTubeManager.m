@@ -107,7 +107,7 @@ RCT_EXPORT_METHOD(getDuration:(nonnull NSNumber *)reactTag resolver:(RCTPromiseR
             if (error) {
                 reject(@"Error getting duration of video from RCTYouTube", @"", error);
             } else {
-                NSNumber *duration = [NSNumber numberWithInt:response];
+                NSNumber *duration = [NSNumber numberWithFloat:response];
                 resolve(duration);
             }
         }];
